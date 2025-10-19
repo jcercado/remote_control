@@ -1,23 +1,14 @@
 {
-  "version": 6,
+  "version": 7,
   "enabled": true,
 
   "show_after": 1729387800000,
   "cooldown_ms": 604800000,
 
   "cancelable": true,
-  "force_update": false,
 
-  "title": "¡Conectemos!",
-  "message": "Hablemos por WhatsApp o Telegram para más información",
-
+  "title": "¡Recordatorio!",
+  "message": "Configura tu hora. Si necesitas ayuda, contáctanos.",
   "primary_label": "WhatsApp",
-  "primary_url": "https://wa.me/56912345678",
-
-  "style": {
-    "background_color": "#FFFFFFFF",
-    "title_color": "#FF2196F3",
-    "message_color": "#FF000000",
-    "button_style": "modern"
-  }
+  "primary_url": "https://wa.me/56912345678"
 }
