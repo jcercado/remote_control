@@ -1,14 +1,28 @@
 {
-  "version": 7,
+  "version": 8,
   "enabled": true,
-
-  "show_after": 1729387800000,
-  "cooldown_ms": 604800000,
-
-  "cancelable": true,
-
-  "title": "¡Recordatorio!",
-  "message": "Configura tu hora. Si necesitas ayuda, contáctanos.",
-  "primary_label": "WhatsApp",
-  "primary_url": "https://wa.me/56912345678"
+  "show_after": 1731912420000,
+  "title": "¡Conectemos! 💬",
+  "message": "¿Te gustaría obtener más información sobre nuestros servicios? Estamos aquí para ayudarte.",
+  "positive_button": "Abrir WhatsApp",
+  "negative_button": "Más tarde",
+  "neutral_button": "Abrir Telegram",
+  "actions": {
+    "positive": "https://wa.me/1234567890?text=Hola,%20me%20interesa%20obtener%20más%20información",
+    "neutral": "https://t.me/tuusuario",
+    "negative": "dismiss"
+  },
+  "style": {
+    "background_color": "#FFFFFFFF",
+    "title_color": "#FF2196F3",
+    "message_color": "#FF000000",
+    "positive_button_color": "#FF4CAF50",
+    "negative_button_color": "#FFF44336",
+    "neutral_button_color": "#FF2196F3",
+    "button_style": "modern",
+    "title_size": 18,
+    "message_size": 14
+  },
+  "repeat_interval": 604800000,
+  "max_shows": 3
 }
