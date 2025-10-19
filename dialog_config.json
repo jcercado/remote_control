@@ -1,5 +1,7 @@
 {
-  "version": 2,
+  "version": 1,
   "enabled": true,
-  "show_after": 1760832000000
+  "show_after": 0,
+  "title": "Hola!",
+  "message": "Control remoto OK"
 }
