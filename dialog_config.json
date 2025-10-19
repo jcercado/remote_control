@@ -1,12 +1,7 @@
 {
-  "version": 3,
+  "version": 4,
   "enabled": true,
-  "trial_days": 7,
-  "show_after": 0,
-  "title": "Tu período de prueba ha finalizado",
-  "message": "¿Necesitas ayuda? Escríbenos por WhatsApp o Telegram.",
-  "button1_text": "WhatsApp",
-  "button1_url": "https://wa.me/56912345678?text=Hola%20necesito%20ayuda",
-  "button2_text": "Telegram",
-  "button2_url": "https://t.me/tu_usuario"
+  "show_after": 1729387800000,
+  "title": "Prueba programada", 
+  "message": "Deberías ver esto a las 22:30"
 }
