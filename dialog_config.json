@@ -1,9 +1,29 @@
 {
-  "version": 5,
+  "version": 6,
   "enabled": true,
-  "show_after": 1731912420000,
+
+  // Epoch ms (ejemplo). Si es 0 u omites, muestra de inmediato
+  "show_after": 1729387800000,
+
+  // Control de repetición (7 días)
+  "cooldown_ms": 604800000,
+
+  // Si puede cerrarse con back/tocar fuera
+  "cancelable": true,
+
+  // Si quieres bloquear cierre y forzar acción (no implementa acción obligatoria,
+  // pero puedes combinar con primary_url para dirigir)
+  "force_update": false,
+
+  // Texto
   "title": "¡Conectemos!",
   "message": "Hablemos por WhatsApp o Telegram para más información",
+
+  // Botón principal (si 'primary_url' está vacío, funciona como OK normal)
+  "primary_label": "WhatsApp",
+  "primary_url": "https://wa.me/56912345678",
+
+  // Estilos (libres para futuras iteraciones)
   "style": {
     "background_color": "#FFFFFFFF",
     "title_color": "#FF2196F3",
