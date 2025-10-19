@@ -1,7 +1,7 @@
 {
-  "version": 1,
+  "version": 2,
   "enabled": true,
   "show_after": 0,
   "title": "Hola!",
-  "message": "Control remoto OK"
+  "message": "Probando desde el más halla"
 }
