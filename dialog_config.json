@@ -1,7 +1,35 @@
 {
-  "version": 4,
+  "version": 3,
   "enabled": true,
   "show_after": 1729387800000,
-  "title": "Prueba programada", 
-  "message": "Deberías ver esto a las 22:30"
+  "title": "¡Conectemos!",
+  "message": "Hablemos por WhatsApp o Telegram para más información",
+  "style": {
+    "background_color": "#FFFFFFFF",
+    "title_color": "#FF2196F3",
+    "message_color": "#FF000000",
+    "button_style": "modern"
+  },
+  "buttons": [
+    {
+      "text": "WhatsApp",
+      "action": "url",
+      "value": "https://wa.me/1234567890",
+      "color": "#FF25D366",
+      "text_color": "#FFFFFFFF"
+    },
+    {
+      "text": "Telegram", 
+      "action": "url",
+      "value": "https://t.me/tuusuario",
+      "color": "#FF0088CC",
+      "text_color": "#FFFFFFFF"
+    },
+    {
+      "text": "Cerrar",
+      "action": "dismiss",
+      "color": "#FF757575",
+      "text_color": "#FFFFFFFF"
+    }
+  ]
 }
