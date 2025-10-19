@@ -1,13 +1,13 @@
 {
-  "version": 8,
+  "version": 5,
   "enabled": true,
-  "show_after": 1731916080000,
-  "title": "¡Actualización Requerida!",
-  "message": "Para continuar usando la aplicación, necesitas contactar con soporte técnico.",
-  "positive_button": "Abrir WhatsApp",
-  "negative_button": "Cerrar App", 
-  "actions": {
-    "positive": "https://wa.me/1234567890?text=Hola,%20necesito%20soporte",
-    "negative": "exit"
+  "show_after": 1731917460000,
+  "title": "¡Conectemos!",
+  "message": "Hablemos por WhatsApp o Telegram para más información",
+  "style": {
+    "background_color": "#FFFFFFFF",
+    "title_color": "#FF2196F3",
+    "message_color": "#FF000000",
+    "button_style": "modern"
   }
 }
