@@ -1,13 +1,14 @@
 {
-  "version": 22,
-  "enabled": false,
+  "version": 23,
+  "enabled": true,
   "show_after": 1760878080000,
-  "title": "¡Prueba Finalizada!",
-  "message": "Si te gusto este Mod, contacta ahora al Administrador y reactiva tu membresía.",
+  "title": "✅ ¡Listo! Prueba terminada",
+  "message": "🚀 Para seguir usando nuestro Mod:\n1) Contáctanos por Telegram\n2) Activa tu membresía en minutos\n\n📩 https://t.me/asistenteindrive",
   "style": {
-    "background_color": "#FFFFFFFF",
+    "background_color": "#FFF7FBFF",
     "title_color": "#FF2196F3",
-    "message_color": "#FF000000",
+    "message_color": "#FF0A2A45",
     "button_style": "modern"
   }
 }
+
